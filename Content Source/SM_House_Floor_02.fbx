@@ -8,11 +8,11 @@ FBXHeaderExtension:  {
 		Version: 1000
 		Year: 2020
 		Month: 5
-		Day: 24
-		Hour: 22
-		Minute: 15
-		Second: 36
-		Millisecond: 13
+		Day: 25
+		Hour: 18
+		Minute: 10
+		Second: 18
+		Millisecond: 302
 	}
 	Creator: "FBX SDK/FBX Plugins version 2020.0.1"
 	SceneInfo: "SceneInfo::GlobalInfo", "UserData" {
@@ -34,13 +34,13 @@ FBXHeaderExtension:  {
 			P: "Original|ApplicationVendor", "KString", "", "", "Autodesk"
 			P: "Original|ApplicationName", "KString", "", "", "Maya"
 			P: "Original|ApplicationVersion", "KString", "", "", "201903"
-			P: "Original|DateTime_GMT", "DateTime", "", "", "24/05/2020 16:45:36.011"
+			P: "Original|DateTime_GMT", "DateTime", "", "", "25/05/2020 12:40:18.301"
 			P: "Original|FileName", "KString", "", "", "D:\Work\Projects\TwoMinHorror\Content Source\SM_House_Floor_02.fbx"
 			P: "LastSaved", "Compound", "", ""
 			P: "LastSaved|ApplicationVendor", "KString", "", "", "Autodesk"
 			P: "LastSaved|ApplicationName", "KString", "", "", "Maya"
 			P: "LastSaved|ApplicationVersion", "KString", "", "", "201903"
-			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "24/05/2020 16:45:36.011"
+			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "25/05/2020 12:40:18.301"
 			P: "Original|ApplicationActiveProject", "KString", "", "", "D:\Work\Projects\TwoMinHorror\Content Source"
 			P: "Original|ApplicationNativeFile", "KString", "", "", "D:\Work\Projects\TwoMinHorror\Local\WhiteBox.ma"
 		}
@@ -77,7 +77,7 @@ GlobalSettings:  {
 
 Documents:  {
 	Count: 1
-	Document: 3119110031072, "", "Scene" {
+	Document: 2149632913136, "", "Scene" {
 		Properties70:  {
 			P: "SourceObject", "object", "", ""
 			P: "ActiveAnimStackName", "KString", "", "", "Take 001"
@@ -238,7 +238,7 @@ Definitions:  {
 ;------------------------------------------------------------------
 
 Objects:  {
-	Geometry: 3119172407520, "Geometry::", "Mesh" {
+	Geometry: 2149639849968, "Geometry::", "Mesh" {
 		Vertices: *24 {
 			a: -379.999969482422,-685.000061035156,371.286682128906,760,-685.000061035156,371.286682128906,-379.999969482422,685,371.286682128906,760,685,371.286682128906,-379.999969482422,685,320,760,685,320,-379.999969482422,-685.000061035156,320,760,-685.000061035156,320
 		} 
@@ -344,7 +344,7 @@ Objects:  {
 			}
 		}
 	}
-	Model: 3118932970928, "Model::SM_House_Floor_02", "Mesh" {
+	Model: 2149705079952, "Model::SM_House_Floor_02", "Mesh" {
 		Version: 232
 		Properties70:  {
 			P: "ScalingPivot", "Vector3D", "Vector", "",190.000015258789,-3.0517578125e-05,345.643341064453
@@ -357,7 +357,7 @@ Objects:  {
 		Shading: T
 		Culling: "CullingOff"
 	}
-	Material: 3119171377152, "Material::MI_House_Floor", "" {
+	Material: 2149694544336, "Material::MI_House_Floor", "" {
 		Version: 102
 		ShadingModel: "phong"
 		MultiLayer: 0
@@ -378,7 +378,7 @@ Objects:  {
 			P: "Reflectivity", "double", "Number", "",0
 		}
 	}
-	CollectionExclusive: 3118973236624, "DisplayLayer::Terrace", "DisplayLayer" {
+	CollectionExclusive: 2148906260224, "DisplayLayer::Terrace", "DisplayLayer" {
 	}
 }
 
@@ -388,14 +388,14 @@ Objects:  {
 Connections:  {
 	
 	;Model::SM_House_Floor_02, Model::RootNode
-	C: "OO",3118932970928,0
+	C: "OO",2149705079952,0
 	
 	;Geometry::, Model::SM_House_Floor_02
-	C: "OO",3119172407520,3118932970928
+	C: "OO",2149639849968,2149705079952
 	
 	;Material::MI_House_Floor, Model::SM_House_Floor_02
-	C: "OO",3119171377152,3118932970928
+	C: "OO",2149694544336,2149705079952
 	
 	;Model::SM_House_Floor_02, DisplayLayer::Terrace
-	C: "OO",3118932970928,3118973236624
+	C: "OO",2149705079952,2148906260224
 }
